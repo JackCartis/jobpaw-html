@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-bottom: 3000px;
+    padding-top: 70px;
+}
+
+.location-box{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+.location-bar{
+    flex:1;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 15px;
+    border: solid;
+    border-right: none;
+    border-width: 1px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    border-color: gray;
+    font-family: Open sans, Arial;
+}
+
+.location-bar::placeholder{
+    font-family: Open sans, Arial;
+}
+
+.location-icon{
+    width: 20px;
+    border: solid;
+    border-left: none;
+    border-width: 1px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-color: gray;
+}
+
+.s-button{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Open sans, Arial;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 9px;
+    border: none;
+    background-color: rgb(72, 89, 199);
+    margin-left: 10px;
+    color: rgb(228, 226, 226);
+    transition: 0.4s;
+}
+
+.s-button:hover{
+    background-color: rgb(101, 121, 253);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.s-button:active{
+    opacity: 0.6;
+}
+
+.grand-title{
+    font-size: 25px;
+    font-family: Open sans, Arial;
+    color: rgb(58, 58, 58);
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.job-box{
+    background-color: rgb(238, 238, 250);
+    width: 350px;
+    text-align: start;
+    display: grid;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(29, 29, 29);
+    transition: 0.4s;
+}
+
+.job-box:hover{
+    background-color: rgb(216, 216, 216);
+    color: rgb(0, 0, 0);
+    cursor:default;
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.3);
+}
+
+.job-title{
+    font-size: 20px;
+    font-family: Open sans;
+    margin: 0;
+    font-weight: bold;
+}
+
+.job-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.job-location{
+    font-size: 13px;
+    font-family: Open sans;
+    margin: 0;
+    margin-top: 3px;
+    transition: 1s;
+}
+
+.job-location:hover{
+    color: rgb(95, 95, 95);
+}
+
+.publisher-name{
+    font-size: 17px;
+    font-family: Open sans, Arial;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.wage{
+    display: inline;
+    font-family: Rubik, Arial;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+    color: green;
+    transition: 0.5s;
+}
+
+.wage:hover{
+    color: rgb(2, 187, 2);
+}
+
+.job-description{
+    font-family: Open sans, Arial;
+    font-size: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.job-time{
+    font-family: Rubik, Open sans, Arial;
+    font-size: 15px;
+    margin: 0;
+}
+
+.job-grid{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.apply-button,
+.learn-more-button{
+    font-family: Rubik, Arial;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    flex: 1;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset 2px 2px 3px rgba(150, 150, 150, 0.4);
+    transition: 0.4s;
+}
+
+.apply-button:hover{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.apply-button:active{
+    background-color: rgb(192, 192, 192);
+}
+
+.learn-more-button:hover{
+    background-color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.learn-more-button:active{
+    background-color: rgb(192, 192, 192);
+}
+
+.buttons-box{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    column-gap: 8px;
+}
